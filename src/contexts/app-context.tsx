@@ -245,17 +245,21 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
     }, [resetUserState, router]);
   
   const logout = useCallback(async () => {
-    resetUserState();
-    if (firebaseUser) {
-        try {
-          await signOut(auth);
-        } catch (error) {
-          console.error("Błąd wylogowywania:", error);
-          toast({ title: 'Błąd wylogowywania' });
-        }
-    }
-    router.push('/welcome');
-  }, [firebaseUser, resetUserState, router]);
+    // Dla wszystkich użytkowników - najpierw przenieś na stronę główną na sekundę
+    router.push('/');
+    setTimeout(async () => {
+      resetUserState();
+      if (firebaseUser) {
+          try {
+            await signOut(auth);
+          } catch (error) {
+            console.error("Błąd wylogowywania:", error);
+            toast({ title: 'Błąd wylogowywania' });
+          }
+      }
+      router.push('/welcome');
+    }, 1000);
+  }, [firebaseUser, resetUserState, router, user]);
 
   const getUserById = (userId: string) => {
       if (userId === 'guest') return GUEST_USER;
