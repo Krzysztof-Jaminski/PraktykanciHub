@@ -18,7 +18,9 @@ Witaj w **PraktykanciHub**! Jest to kompleksowa aplikacja społecznościowa stwo
 
 ## Kluczowe Funkcjonalności
 
-Aplikacja została zaprojektowana z myślą o czterech głównych filarach, które wspierają codzienne życie praktykantów.
+Aplikacja została zaprojektowana z myślą o czterech głównych filarach, które wspierają codzienne życie praktykantów, posiada różne systemy autoryzacji oraz oferuje możliwość użytkowania jako gość:
+
+<img width="1901" height="893" alt="image" src="https://github.com/user-attachments/assets/3f5ac017-6723-4acf-b152-eeb5b9bc95aa" />
 
 ### Panel Główny
 
@@ -26,6 +28,10 @@ Po zalogowaniu użytkownik trafia na spersonalizowany panel główny, który jes
 
 -   **Cotygodniowy monit o status:** W dni robocze (poniedziałek-piątek) na górze strony pojawia się prośba o uzupełnienie statusu tygodniowego.
 -   **Kalendarz rezerwacji:** Główną część panelu zajmuje interaktywny kalendarz na bieżący tydzień, umożliwiający szybkie zarządzanie swoją obecnością.
+-   
+  <img width="1805" height="345" alt="image" src="https://github.com/user-attachments/assets/f49cf406-f87e-4d2e-a4c5-546ff0ac963f" />
+
+
 
 ### Rezerwacje Obecności
 
@@ -43,6 +49,8 @@ Moduł ten pozwala na łatwe planowanie pracy i sprawdzanie, kto z zespołu będ
 -   **Statusy Dni:** Karty dni są wizualnie oznaczone jako:
     -   **Dzisiaj:** Specjalna ramka podkreśla bieżący dzień.
     -   **Przeszłe/Niedostępne:** Dni, na które nie można już dokonywać rezerwacji, są wyszarzone.
+ 
+    <img width="1900" height="888" alt="image" src="https://github.com/user-attachments/assets/ff144264-e13d-4d2f-b90e-22a11506de9b" />
 
 ### Portfolio i Statusy Tygodniowe
 
@@ -59,6 +67,8 @@ Każdy użytkownik posiada swój profil, na którym może budować portfolio swo
     -   Dodawać nowe projekty.
     -   Edytować i usuwać istniejące wpisy (zarówno statusy, jak i projekty).
     -   Przełączać widoczność każdego elementu, decydując, co jest widoczne dla innych.
+ 
+      <img width="652" height="888" alt="image" src="https://github.com/user-attachments/assets/da0ab16d-535b-4e5a-8016-00b424542604" />
 
 ### Zamówienia Jedzenia i Głosowania
 
@@ -67,28 +77,46 @@ Moduł społecznościowy ułatwiający organizację wspólnych posiłków.
 -   **Tworzenie Wydarzeń:** Użytkownik może utworzyć dwa rodzaje wydarzeń:
     1.  **Zamówienie Grupowe:** Zbieranie zamówień z jednej, konkretnej restauracji. Wymaga podania nazwy firmy, numeru telefonu do koordynacji i opcjonalnie linku do menu oraz terminu końcowego.
     2.  **Głosowanie na Restaurację:** Umożliwia społeczności demokratyczny wybór miejsca na lunch. Użytkownik definiuje tytuł głosowania i dodaje początkowe opcje (z nazwą i opcjonalnym linkiem).
+       <img width="1890" height="892" alt="image" src="https://github.com/user-attachments/assets/5073478b-e314-4f6b-b11a-0f50e4def124" />
+
 -   **Aktywne Wydarzenia vs Historia:** Interfejs jest podzielony na dwie zakładki:
     -   **Aktywne:** Bieżące, otwarte zamówienia i głosowania.
     -   **Historia:** Wszystkie zamknięte i zakończone wydarzenia.
+ 
+      <img width="1370" height="858" alt="image" src="https://github.com/user-attachments/assets/2ca6a22d-3806-4b1d-b211-8cfd2b1dabfe" />
+
 -   **Funkcjonalności Zamówień:**
     -   **Dodawanie do Zamówienia:** Użytkownicy mogą dodawać pozycje dla siebie lub dla **gościa** (podając jego imię).
     -   **Zarządzanie przez Twórcę/Admina:** Możliwość edycji, usuwania, zamykania i ponownego otwierania zamówienia oraz oznaczania wszystkich pozycji jako opłacone.
     -   **Śledzenie Płatności:** Twórca może oznaczać poszczególne zamówienia jako opłacone.
+ 
+      <img width="1390" height="866" alt="image" src="https://github.com/user-attachments/assets/dbfa6aeb-d3a8-40fe-a661-6dec42a96f2d" />
+
 -   **Funkcjonalności Głosowań:**
     -   **Głosowanie:** Użytkownicy mogą oddać jeden głos na wybraną opcję lub go cofnąć.
     -   **Dodawanie Propozycji:** Każdy może dodać własną propozycję restauracji w trakcie trwania głosowania.
     -   **Wyniki:** Po zakończeniu głosowania (ręcznie przez twórcę lub po upłynięciu terminu) opcja z największą liczbą głosów jest oznaczona jako zwycięzca.
     -   **Tworzenie Zamówienia z Głosowania:** Na podstawie zwycięskiej opcji można jednym kliknięciem utworzyć nowe zamówienie grupowe.
+ 
+      <img width="1159" height="842" alt="image" src="https://github.com/user-attachments/assets/bb59666a-629e-4ff4-9b59-67253a7b358b" />
+
 
 ### Profile Użytkowników
+
 
 Centralne miejsce, w którym można dowiedzieć się więcej o innych praktykantach.
 
 -   **Lista Użytkowników:** Dostępna jest strona z kartami wszystkich uczestników programu.
+
+    <img width="1887" height="877" alt="image" src="https://github.com/user-attachments/assets/6d421724-26b4-440c-b763-f1d788cd4a6d" />
+
 -   **Publiczny Profil:** Kliknięcie na kartę przenosi do publicznego profilu, który zawiera:
     -   Imię, awatar i rolę (np. admin).
     -   Statystyki obecności (dni w biurze, dni online).
     -   Publicznie widoczne portfolio projektów i statusów tygodniowych.
+ 
+      <img width="1390" height="900" alt="image" src="https://github.com/user-attachments/assets/05f4a384-bb26-4da1-a7cd-adf5220e77c3" />
+
 
 ---
 
